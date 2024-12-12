@@ -79,7 +79,7 @@ namespace FovAdjust {
 
 		public static bool snapFovChange = false;
 
-		public static float sprintFovMultiplier = 1.03f;
+		public static float sprintFovMultiplier = 1.14f;
 
 		[HarmonyPatch(typeof(PlayerControllerB), "Awake")]
 		[HarmonyPostfix]
